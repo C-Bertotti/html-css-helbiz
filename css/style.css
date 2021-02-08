@@ -12,6 +12,15 @@ body {
 }
 /* /mix */
 
+/* typo */ 
+h1 {
+    font-weight: 700;
+    color: #000;
+    font-size: 50px;
+}
+/* /typo */
+
+
 /* buttons */
 .btn {
     padding: 12px 25px;
@@ -82,9 +91,33 @@ header img {
 }
 /* /header */
 
+/* main */
+#jumbotron img {
+    width: 100%;
+}
+/* /main */
+
+
 /* responsive */
+
+/* ---- da small - tablet ---- */
+@media screen and (min-width:768px) {
+    /* typo */ 
+    h1 {
+        font-size: 65px;
+    }
+    /* /typo */
+}
+/* ---- /da small - tablet ---- */
+
+
 /* ---- da medium - desktop ---- */
 @media screen and (min-width:992px) {
+    /* typo */ 
+    h1 {
+        font-size: 85px;
+    }
+    /* /typo */
     /* header  */
     .header__nav {
         display: inline-block;
@@ -96,9 +129,20 @@ header img {
     /* header  */
 
 }
-
-
 /* ---- / da medium - desktop ---- */
+
+/* ---- da large - extra desktop ---- */
+@media screen and (min-width:1200px) {
+    /* typo */ 
+    h1 {
+        font-size: 110px;
+    }
+    /* /typo */
+    
+    /* header  */
+
+}
+/* ---- / da medium - extra desktop ---- */
 
 /* /responsive */
 

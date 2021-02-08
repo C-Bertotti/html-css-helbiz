@@ -15,13 +15,30 @@ body {
 .bg__secondary {
     background-color: #fafafa;
 }
+
+.container--small {
+    max-width: 800px;
+    margin: 0 auto;
+}
 /* /mix */
 
 /* typo */ 
 h1 {
-    font-weight: 700;
     color: #000;
     font-size: 50px;
+}
+h1, h2 {
+    font-weight: 700;
+}
+h3 {
+    font-size: 36px;
+}
+h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+h3, h4 {
+    font-weight: 600;
 }
 
 p {
@@ -131,6 +148,51 @@ section {
     margin: 0 auto;
 }
 
+#how-does-it-work {
+    position: relative;
+}
+.how-d-w__bg {
+    background-image: url("../img/banner.jpg");
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+#how-does-it-work .container--small {
+    padding-top: 200px;
+
+}
+.how-d-w__col{
+    width: 100%;
+}
+.how-d-w__img--frame {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    max-width: 250px;
+    position: relative;
+    z-index: 10;
+}
+.how-d-w__img--bg {
+    max-height: 480px;
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+}
+
+.how-d-w__col--heading, .how-d-w__col--steps {
+    padding: 0 20px;
+}
+.how-d-w__col p {
+    font-size: 18px;
+}
+.how-d-w__col h3 {
+    margin: 40px 0;
+}
+
 
 /* /main */
 
@@ -144,6 +206,37 @@ section {
         font-size: 65px;
     }
     /* /typo */
+
+    /* main */
+    .how-d-w__col {
+        width: calc(100% / 3);
+        display: inline-block;
+        position: relative;
+        vertical-align: bottom;
+    }
+    .how-d-w__col--phone {
+        left: calc(100% / 3);
+    }
+    .how-d-w__img--bg {
+        max-height: 490px;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 30px;
+    }
+
+    .how-d-w__col--heading {
+        right: calc(100% / 3);
+    }
+    .how-d-w__col h3 {
+        margin: 0;
+    }
+
+    .how-d-w__col--heading, .how-d-w__col--steps {
+         padding: 0 20px 50px;
+        }    }
+    /* /main */
+
 }
 /* ---- /da small - tablet ---- */
 

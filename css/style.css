@@ -1,6 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     color: rgb(33, 37, 41);
+    padding-top: 70px;
 }
 
 /* mix */
@@ -70,13 +71,19 @@ p {
 header {
     height: 70px;
     line-height: 70px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
 }
 header img {
     width: 80px;
 }
 
 .header__nav {
-    display: inline-block;
+    display: none;
     font-size: 10px;
     font-weight: 600;
 }

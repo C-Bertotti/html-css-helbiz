@@ -130,7 +130,7 @@ main a {
     font-size: 20px;
 }
 section {
-    padding: 40px 0;
+    padding: 20px 0;
 }
 #jumbotron img {
     width: 100%;
@@ -200,8 +200,6 @@ section {
 .how-d-w__col h3 {
     margin: 40px 0;
 }
-
-
 /* /main */
 
 
@@ -241,10 +239,9 @@ section {
     }
 
     .how-d-w__col--heading, .how-d-w__col--steps {
-         padding: 0 20px 50px;
-        }    }
+        padding: 0 20px 50px;
+    }   
     /* /main */
-
 }
 /* ---- /da small - tablet ---- */
 
@@ -263,7 +260,6 @@ section {
     .btn--nav {
         display: none;
     }
-   
     /* header  */
 }
 /* ---- / da medium - desktop ---- */
@@ -272,12 +268,9 @@ section {
 @media screen and (min-width:1200px) {
     /* typo */ 
     h1 {
-        font-size: 110px;
+        font-size: 100px;
     }
     /* /typo */
-    
-    /* header  */
-
 }
 /* ---- / da medium - extra desktop ---- */
 
